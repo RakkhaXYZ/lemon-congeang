@@ -1092,6 +1092,7 @@ section,
   transition: 0.3s;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   position: relative;
+  
 }
 
 .features .features-item i {
@@ -1175,6 +1176,7 @@ section,
 
 .details .features-item+.features-item {
   margin-top: 100px;
+  
 }
 
 @media (max-width: 640px) {
