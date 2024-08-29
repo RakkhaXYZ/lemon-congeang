@@ -14,3 +14,39 @@
   position: relative;
   margin-right: 10px;
 }
+
+.social a.buy-shopee:hover::after{
+  content: "Beli Di Shopee";
+  position: absolute;
+  background-color: #FF5722;
+  color: white;
+  padding: 5px;
+  border-radius: 3px;
+  font-size: 12px;
+  top: -25px;
+  transform: translate(-50%);
+  white-space: nowrap;
+}
+.social a {
+  position: relative;
+  margin-right: 10px;
+}
+
+.social a.buy-wa:hover::after{
+  content: "Chat Pembeli";
+  position: absolute;
+  background-color:#25D366;
+  color: white;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 12px;
+  top: -25px;
+  left: 5%;
+  transform: translate(-40%);
+  white-space: nowrap;
+  
+}
+.social a {
+  position: relative;
+  margin-right: 10px;
+}
